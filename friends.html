@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/quligem.css" rel="stylesheet" />
+    <script src="https://static.piterator.com/node_modules/jquery/dist/jquery.min.js"></script>
+    <title>友情链接 - Lite Search - 轻搜索</title>
+    <style>
+        .holders{
+            position: relative;
+            height: 42px;
+            min-width: 360px;
+            width: 40%;
+            margin: auto;
+            text-align: center;
+        }
+        #search_box{
+            height: 42px;
+            width: 100%;
+            display: block;
+            margin-top: .6em;
+            border-radius: 0.8em;
+            border: 1.5px solid rgb(0,181,173);
+            color: rgb(0,181,173);
+            padding-left: 12px;
+            padding-right: 96px;
+            box-sizing: border-box;
+            font-weight: 100;
+            outline: none;
+        }
+        #search_btn{
+            height: 42px;
+            width: 88px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            border: 1.5px solid rgb(0,181,173);
+            box-sizing: border-box;
+            font-weight: 100;
+            border-radius: 0px 12px 12px 0px;
+        }
+        .engines{
+            height: 42px;
+            margin-top: .6em;
+            border: 1.5px solid rgb(0,181,173);
+            box-sizing: border-box;
+            font-weight: 100;
+        }
+        #engines_fold{
+            height: 42px;
+            margin-top: .6em;
+            width: 360px;
+            border: 1.5px solid rgb(0,181,173);
+            box-sizing: border-box;
+            font-weight: 100;
+        }
+        .engines_holders{
+            height: 47px;
+        }
+        .github_btn{
+            position: relative;
+            top: 5.5px;
+        }
+    </style>
+</head>
+<body onkeypress="if(event.keyCode==13)start()" style="position: relative">
+    <div style="height: 88px; box-sizing: border-box;"></div>
+    <h1 class="header teal center">轻搜索 Lite Search</h1>
+    <div class="holders">
+        <input id="search_box" name="search_box" placeholder="搜索无需繁琐" />
+        <span class="button teal reversal" id="search_btn" onclick="start()">开始</span>
+    </div>
+    <div style="height: 30px; box-sizing: border-box;"></div>
+    <p class="teal center">
+        <p class="teal center bolder">友情链接</p>
+        <p class="teal center"><a class="teal link center" href="https://www.piterator.com/" target="_blank">Piterator</a></p>
+        <p class="teal center"><a class="teal link center" href="https://oier.fun/" target="_blank">Oier 全家桶</a></p>
+        <p class="teal center"><a class="teal link center" href="https://bbs.codesra.cn/" target="_blank">源码星球论坛</a></p>
+    </p>
+    <div class="teal">
+        <div style="height: 10px; box-sizing: border-box;"></div>
+        <p style="text-align: center">
+            Copyright &copy; <a href="https://www.piterator.com/" class="link teal" target="_blank">Piterator</a> 2017 - 2020. 
+            <br />
+            All rights reserved.
+            <br />
+            沪ICP备19004827号-4
+            <br />
+            <a href="sitemap.xml" class="link teal">SiteMap</a>
+            <div style="display: none"><img src="https://www.hit-counts.com/counter.php?t=MTQ0ODA1NA==" alt="hit-counts" /></div>
+        </p>
+    </div>
+    <script>
+        function start(){
+            var url_jump="https://www.baidu.com/s?ie=UTF-8&wd="+document.getElementById("search_box").value;
+            window.open(url_jump.replace(/\+/g,'%2B'),"_blank");
+        }
+        window.onload = function(){
+            history.replaceState({}, "友情链接 - Lite Search - 轻搜索", "https://litesearch.cn/friends");
+        }
+    </script>
+</body>
+</html>
