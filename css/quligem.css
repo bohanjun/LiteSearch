@@ -35,7 +35,7 @@
     cursor: pointer;
 }
 .link:hover{
-    color: rgb(0,93,168)!important;
+    color: rgb(0,93,168);
     text-decoration: underline;
 }
 .link:visited{
@@ -47,17 +47,17 @@
     border-color: rgb(219,40,40);
 }
 .button.reversal.red{
-    background-color: rgb(219,40,40)!important;
+    background-color: rgb(219,40,40);
     border-color: rgb(219,40,40);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.red:hover,.button.red:hover{
-    color: rgb(179,0,0)!important;
+    color: rgb(179,0,0);
 }
 .button.reversal:hover{
-    background-color: rgb(179,0,0)!important;
+    background-color: rgb(179,0,0);
     border-color: rgb(179,0,0);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.red{
     color: rgb(219,40,40);
@@ -70,17 +70,17 @@
     border-color: rgb(242,113,28);
 }
 .button.reversal.orange{
-    background-color: rgb(242,113,28)!important;
+    background-color: rgb(242,113,28);
     border-color: rgb(242,113,28);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.orange:hover,.button.orange:hover{
-    color: rgb(202,73,0)!important;
+    color: rgb(202,73,0);
 }
 .button.reversal.orange:hover{
-    background-color: rgb(202,73,0)!important;
+    background-color: rgb(202,73,0);
     border-color: rgb(202,73,0);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.orange{
     color: rgb(242,113,28);
@@ -93,17 +93,17 @@
     border-color: rgb(251,189,8);
 }
 .button.reversal.yellow{
-    background-color: rgb(251,189,8)!important;
+    background-color: rgb(251,189,8);
     border-color: rgb(251,189,8);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.yellow:hover,.button.yellow:hover{
-    color: rgb(211,149,0)!important;
+    color: rgb(211,149,0);
 }
 .button.reversal.yellow:hover{
-    background-color: rgb(211,149,0)!important;
+    background-color: rgb(211,149,0);
     border-color: rgb(211,149,0);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.yellow:visited{
     color: rgb(251,189,8);
@@ -113,17 +113,17 @@
     border-color: rgb(181,204,24);
 }
 .button.reversal.olive{
-    background-color: rgb(181,204,24)!important;
+    background-color: rgb(181,204,24);
     border-color: rgb(181,204,24);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.olive:hover,.button.olive:hover{
-    color: rgb(141,164,0)!important;
+    color: rgb(141,164,0);
 }
 .button.reversal.olive:hover{
-    background-color: rgb(141,164,0)!important;
+    background-color: rgb(141,164,0);
     border-color: rgb(141,164,0);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.olive{
     color: rgb(181,204,24);
@@ -136,17 +136,17 @@
     border-color: rgb(33,186,69);
 }
 .button.reversal.green{
-    background-color: rgb(33,186,69)!important;
+    background-color: rgb(33,186,69);
     border-color: rgb(33,186,69);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.green:hover,.button.green:hover{
-    color: rgb(0,146,29)!important;
+    color: rgb(0,146,29);
 }
 .button.reversal.green:hover{
-    background-color: rgb(0,146,29)!important;
+    background-color: rgb(0,146,29);
     border-color: rgb(0,146,29);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.green{
     color: rgb(33,186,69);
@@ -159,17 +159,17 @@
     border-color: rgb(0,181,173);
 }
 .button.reversal.teal{
-    background-color: rgb(0,181,173)!important;
+    background-color: rgb(0,181,173);
     border-color: rgb(0,181,173);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.teal:hover,.button.teal:hover{
-    color: rgb(0,141,133)!important;
+    color: rgb(0,141,133);
 }
 .button.reversal.teal:hover{
-    background-color: rgb(0,141,133)!important;
+    background-color: rgb(0,141,133);
     border-color: rgb(0,141,133);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.teal{
     color: rgb(0,181,173);
@@ -182,17 +182,17 @@
     border-color: rgb(33,133,208);
 }
 .button.reversal.blue{
-    background-color: rgb(33,133,208)!important;
+    background-color: rgb(33,133,208);
     border-color: rgb(33,133,208);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.blue:hover,.button.blue:hover{
-    color: rgb(0,93,168)!important;
+    color: rgb(0,93,168);
 }
 .button.reversal.blue:hover{
-    background-color: rgb(0,93,168)!important;
+    background-color: rgb(0,93,168);
     border-color: rgb(0,93,168);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.blue{
     color: rgb(33,133,208);
@@ -205,17 +205,17 @@
     border-color: rgb(163,51,200);
 }
 .button.reversal.purple{
-    background-color: rgb(163,51,200)!important;
+    background-color: rgb(163,51,200);
     border-color: rgb(163,51,200);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.purple:hover,.button.purple:hover{
-    color: rgb(123,11,160)!important;
+    color: rgb(123,11,160);
 }
 .button.reversal.purple:hover{
-    background-color: rgb(123,11,160)!important;
+    background-color: rgb(123,11,160);
     border-color: rgb(123,11,160);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.purple:visited{
     color: rgb(163,51,200);
@@ -225,17 +225,17 @@
     border-color: rgb(224,57,151);
 }
 .button.reversal.pink{
-    background-color: rgb(224,57,151)!important;
+    background-color: rgb(224,57,151);
     border-color: rgb(224,57,151);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.pink:hover,.button.pink:hover{
-    color: rgb(184,17,111)!important;
+    color: rgb(184,17,111);
 }
 .button.reversal.pink:hover{
-    background-color: rgb(184,17,111)!important;
+    background-color: rgb(184,17,111);
     border-color: rgb(184,17,111);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.pink{
     color: rgb(224,57,151);
@@ -248,17 +248,17 @@
     border-color: rgb(165,103,63);
 }
 .button.reversal.brown{
-    background-color: rgb(165,103,63)!important;
+    background-color: rgb(165,103,63);
     border-color: rgb(165,103,63);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.brown:hover,.button.brown:hover{
-    color: rgb(125,63,23)!important;
+    color: rgb(125,63,23);
 }
 .button.reversal.brown:hover{
-    background-color: rgb(125,63,23)!important;
+    background-color: rgb(125,63,23);
     border-color: rgb(125,63,23);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.brown{
     color: rgb(165,103,63);
@@ -271,17 +271,17 @@
     border-color: rgb(118,118,118);
 }
 .button.reversal.grey{
-    background-color: rgb(118,118,118)!important;
+    background-color: rgb(118,118,118);
     border-color: rgb(118,118,118);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.grey:hover,.button.grey:hover{
-    color: rgb(78,78,78)!important;
+    color: rgb(78,78,78);
 }
 .button.reversal.grey:hover{
-    background-color: rgb(78,78,78)!important;
+    background-color: rgb(78,78,78);
     border-color: rgb(78,78,78);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.grey{
     color: rgb(118,118,118);
@@ -294,17 +294,17 @@
     border-color: rgb(27,28,29);
 }
 .button.reversal.black{
-    background-color: rgb(27,28,29)!important;
+    background-color: rgb(27,28,29);
     border-color: rgb(27,28,29);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.black:hover,.button.black:hover{
-    color: rgb(64,65,66)!important;
+    color: rgb(64,65,66);
 }
 .button.reversal.black:hover{
-    background-color: rgb(49,51,52)!important;
+    background-color: rgb(49,51,52);
     border-color: rgb(49,51,52);
-    color: rgb(248, 248, 248)!important;
+    color: rgb(248, 248, 248);
 }
 .link.black{
     color: rgb(27,28,29);
@@ -337,8 +337,8 @@
 }
 .divider.vertical{
     display: inline-block;
-    height: auto!important;
-    width: 1px!important;
+    height: auto;
+    width: 1px;
 	position: absolute;
     top: 0;
     bottom: 0;
