@@ -1,0 +1,275 @@
+.liteSearchBoxA{
+    position: relative;
+    height: 42px!important;
+    min-width: 188px;
+    text-align: center;
+    font-weight: 100;
+}
+.liteSearchBoxA .startButton{
+    display: inline-flex;
+    min-width: 5.2em;
+    padding-left: .6em;
+    padding-right: .6em;
+    height: 1.8em;
+    margin-bottom: .4em;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-weight: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    height: 42px;
+    width: 88px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 1.5px solid rgb(0,181,173);
+    box-sizing: border-box;
+    font-weight: 100;
+    border-radius: 0px 12px 12px 0px;
+    background-color: rgb(0,181,173)!important;
+    border-color: rgb(0,181,173);
+    color: rgb(248, 248, 248)!important;
+}
+.liteSearchBoxA .startButton:hover{
+    background-color: rgb(0,141,133)!important;
+    border-color: rgb(0,141,133);
+    color: rgb(248, 248, 248)!important;
+}
+.liteSearchBoxA .inputBox{
+    height: 42px;
+    width: 100%;
+    display: block;
+    margin-top: .6em;
+    border-radius: 0.8em;
+    border: 1.5px solid rgb(0,181,173);
+    color: rgb(0,181,173);
+    padding-left: 12px;
+    padding-right: 96px;
+    box-sizing: border-box;
+    font-weight: 100;
+    outline: none;
+}
+
+.liteSearchBoxB{
+    position: relative;
+    height: 42px!important;
+    min-width: 188px;
+    text-align: center;
+    font-weight: 100;
+}
+.liteSearchBoxB .startButton{
+    display: inline-flex;
+    min-width: 5.2em;
+    padding-left: .6em;
+    padding-right: .6em;
+    height: 1.8em;
+    margin-bottom: .4em;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-weight: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    height: 42px;
+    width: 88px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 1.5px solid rgb(0,181,173);
+    box-sizing: border-box;
+    font-weight: 100;
+    border-radius: 0px 21px 21px 0px;
+    background-color: rgb(0,181,173)!important;
+    border-color: rgb(0,181,173);
+    color: rgb(248, 248, 248)!important;
+}
+.liteSearchBoxB .startButton:hover{
+    background-color: rgb(0,141,133)!important;
+    border-color: rgb(0,141,133);
+    color: rgb(248, 248, 248)!important;
+}
+.liteSearchBoxB .inputBox{
+    height: 42px;
+    width: 100%;
+    display: block;
+    margin-top: .6em;
+    border-radius: 21px;
+    border: 1.5px solid rgb(0,181,173);
+    color: rgb(0,181,173);
+    padding-left: 12px;
+    padding-right: 96px;
+    box-sizing: border-box;
+    font-weight: 100;
+    outline: none;
+}
+
+.liteSearchBoxC{
+    position: relative;
+    height: 42px!important;
+    min-width: 188px;
+    text-align: center;
+    font-weight: 100;
+}
+.liteSearchBoxC .startButton{
+    display: none;
+}
+.liteSearchBoxC .inputBox{
+    height: 42px;
+    width: 100%;
+    display: block;
+    margin-top: .6em;
+    border-radius: 21px;
+    border: 1.5px solid rgb(0,181,173);
+    color: rgb(0,181,173);
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    font-weight: 100;
+    outline: none;
+    text-align: center;
+}
+
+.liteSearchBoxD{
+    position: relative;
+    height: 42px!important;
+    min-width: 188px;
+    text-align: center;
+    font-weight: 100;
+}
+.liteSearchBoxDLeft{
+    position: relative;
+    height: 42px!important;
+    min-width: 188px;
+    text-align: left;
+    font-weight: 100;
+}
+.liteSearchBoxDRight{
+    position: relative;
+    height: 42px!important;
+    min-width: 188px;
+    text-align: right;
+    font-weight: 100;
+}
+.liteSearchBoxD .startButton,.liteSearchBoxDLeft .startButton,.liteSearchBoxDRight .startButton{
+    display: none;
+}
+.liteSearchBoxD .inputBox{
+    height: 42px;
+    width: 80%;
+    display: block;
+    margin-top: .6em;
+    border-radius: 21px;
+    border: 1.5px solid rgb(0,181,173);
+    color: rgb(0,181,173);
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    font-weight: 100;
+    outline: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: width 0.2s ease-in-out,border-radius 0.2s ease-out;
+}
+.liteSearchBoxDLeft .inputBox{
+    height: 42px;
+    width: 80%;
+    display: block;
+    margin-top: .6em;
+    border-radius: 21px;
+    border: 1.5px solid rgb(0,181,173);
+    color: rgb(0,181,173);
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    font-weight: 100;
+    outline: none;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: auto;
+    transition: width 0.2s ease-in-out,border-radius 0.2s ease-out;
+}
+.liteSearchBoxDRight .inputBox{
+    height: 42px;
+    width: 80%;
+    display: block;
+    margin-top: .6em;
+    border-radius: 21px;
+    border: 1.5px solid rgb(0,181,173);
+    color: rgb(0,181,173);
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    font-weight: 100;
+    outline: none;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0px;
+    transition: width 0.2s ease-in-out,border-radius 0.2s ease-out;
+}
+.liteSearchBoxD .inputBox:focus,.liteSearchBoxDLeft .inputBox:focus,.liteSearchBoxDRight .inputBox:focus{
+    width: 100%;
+    border-radius: 12px;
+    transition: width 0.2s ease-in-out,border-radius 0.2s ease-out;
+}
+
+.liteSearchBoxE{
+    position: relative;
+    height: 42px!important;
+    min-width: 188px;
+    text-align: center;
+    font-weight: 100;
+}
+.liteSearchBoxE .startButton{
+    display: inline-flex;
+    min-width: 4.2em;
+    padding-left: .6em;
+    padding-right: .6em;
+    height: 1.8em;
+    margin-bottom: .4em;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-weight: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    height: 42px;
+    width: 4.2em;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 1.5px solid rgb(0,181,173);
+    box-sizing: border-box;
+    font-weight: 100;
+    border-radius: 21px 21px 21px 21px;
+    background-color: rgb(0,181,173)!important;
+    border-color: rgb(0,181,173);
+    color: rgb(248, 248, 248)!important;
+    transition: width 0.2s ease-in-out,border-radius 0.2s ease-out;
+}
+.liteSearchBoxE .startButton:hover{
+    background-color: rgb(0,141,133)!important;
+    border-color: rgb(0,141,133);
+    color: rgb(248, 248, 248)!important;
+    width: 88px;
+    border-radius: 0px 21px 21px 0px;
+    transition: width 0.2s ease-in-out,border-radius 0.2s ease-out;
+}
+.liteSearchBoxE .inputBox{
+    height: 42px;
+    width: 100%;
+    display: block;
+    margin-top: .6em;
+    border-radius: 21px;
+    border: 1.5px solid rgb(0,181,173);
+    color: rgb(0,181,173);
+    padding-left: 12px;
+    padding-right: 96px;
+    box-sizing: border-box;
+    font-weight: 100;
+    outline: none;
+}

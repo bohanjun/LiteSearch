@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://litesearch.cn/css/quligem.css" rel="stylesheet" />
+    <link id="css" rel="stylesheet" type="text/css" href="https://tool.oschina.net/js/syntaxhighlighter_3.0.83/styles/shCoreRDark.css" />
+    <script type="text/javascript" src="https://tool.oschina.net/js/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+    <script type="text/javascript" src="https://tool.oschina.net/js/syntaxhighlighter_3.0.83/scripts/shBrushAll.js"></script>
+    <link href="/apis/LiteSearchStyleSheet.css" rel="stylesheet" />
+    <title>Demo - 搜索框 - Lite Search - 轻搜索</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div style="height: 16px; box-sizing: border-box"></div>
+    <h1 class="header center teal">LiteSearch APIs</h1>
+    <div style="height: 28px; box-sizing: border-box"></div>
+    <p style="text-align: center; margin: auto">
+        <p class="teal" style="text-align: center; margin: auto">对于任何搜索框，<b class="bolder">必须</b>在 head 标签 中加入以下代码</p>
+        <div style="width: 640px; margin: auto">
+            <div class="syntaxhighlighter xml">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td class="gutter">
+                                <div class="line number1 index0 alt2">1</div>
+                            </td>
+                            <td class="code">
+                                <div class="container">
+                                    <div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code
+                                            class="xml keyword">link</code>&nbsp;<code class="xml color1">href</code><code
+                                            class="xml plain">=</code><code
+                                            class="xml string">"<a href="https://litesearch.cn/apis/LiteSearchStyleSheet.css" target="_blank">https://litesearch.cn/apis/LiteSearchStyleSheet.css</a>"</code>&nbsp;<code
+                                            class="xml color1">rel</code><code class="xml plain">=</code><code
+                                            class="xml string">"stylesheet"</code>&nbsp;<code class="xml plain">/&gt;</code></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <p class="teal bolder" style="text-align: center; margin: auto">样式A</p>
+        <div style="height: 8px; box-sizing: border-box"></div>
+        <div class="liteSearchBoxA" style="width: 400px; margin: auto">
+            <input class="inputBox" placeholder="搜索无需繁琐" />
+            <span class="startButton">开始</span>
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <div style="width: 640px; margin: auto">
+            <p class="teal lighter" style="text-align: center; margin: auto">在 需要搜索框的位置 加入以下代码</p>
+            <div class="syntaxhighlighter xml">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td class="gutter">
+                                <div class="line number1 index0 alt2">1</div>
+                                <div class="line number2 index1 alt1">2</div>
+                                <div class="line number3 index2 alt2">3</div>
+                                <div class="line number4 index3 alt1">4</div>
+                            </td>
+                            <td class="code">
+                                <div class="container">
+                                    <div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code
+                                            class="xml keyword">div</code>&nbsp;<code class="xml color1">class</code><code
+                                            class="xml plain">=</code><code
+                                            class="xml string">"liteSearchBoxA"</code>&nbsp;<code
+                                            class="xml color1">style</code><code class="xml plain">=</code><code
+                                            class="xml string">"width: 400px; margin: auto"</code><code class="xml plain">&gt;</code></div>
+                                    <div class="line number2 index1 alt1"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">input</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"inputBox"</code>&nbsp;<code
+                                            class="xml color1">placeholder</code><code class="xml plain">=</code><code
+                                            class="xml string">"搜索无需繁琐"</code>&nbsp;<code class="xml plain">/&gt;</code></div>
+                                    <div class="line number3 index2 alt2"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">span</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"startButton"</code><code
+                                            class="xml plain">&gt;开始&lt;/</code><code class="xml keyword">span</code><code
+                                            class="xml plain">&gt;</code></div>
+                                    <div class="line number4 index3 alt1"><code class="xml plain">&lt;/</code><code
+                                            class="xml keyword">div</code><code class="xml plain">&gt;</code></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <p class="teal bolder" style="text-align: center; margin: auto">样式B</p>
+        <div style="height: 8px; box-sizing: border-box"></div>
+        <div class="liteSearchBoxB" style="width: 400px; margin: auto">
+            <input class="inputBox" placeholder="搜索无需繁琐" />
+            <span class="startButton">开始</span>
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <div style="width: 640px; margin: auto">
+            <p class="teal lighter" style="text-align: center; margin: auto">在 需要搜索框的位置 加入以下代码</p>
+            <div class="syntaxhighlighter xml">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td class="gutter">
+                                <div class="line number1 index0 alt2">1</div>
+                                <div class="line number2 index1 alt1">2</div>
+                                <div class="line number3 index2 alt2">3</div>
+                                <div class="line number4 index3 alt1">4</div>
+                            </td>
+                            <td class="code">
+                                <div class="container">
+                                    <div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code
+                                            class="xml keyword">div</code>&nbsp;<code class="xml color1">class</code><code
+                                            class="xml plain">=</code><code
+                                            class="xml string">"liteSearchBoxB"</code>&nbsp;<code
+                                            class="xml color1">style</code><code class="xml plain">=</code><code
+                                            class="xml string">"width: 400px; margin: auto"</code><code class="xml plain">&gt;</code></div>
+                                    <div class="line number2 index1 alt1"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">input</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"inputBox"</code>&nbsp;<code
+                                            class="xml color1">placeholder</code><code class="xml plain">=</code><code
+                                            class="xml string">"搜索无需繁琐"</code>&nbsp;<code class="xml plain">/&gt;</code></div>
+                                    <div class="line number3 index2 alt2"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">span</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"startButton"</code><code
+                                            class="xml plain">&gt;开始&lt;/</code><code class="xml keyword">span</code><code
+                                            class="xml plain">&gt;</code></div>
+                                    <div class="line number4 index3 alt1"><code class="xml plain">&lt;/</code><code
+                                            class="xml keyword">div</code><code class="xml plain">&gt;</code></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <p class="teal bolder" style="text-align: center; margin: auto">样式C</p>
+        <div style="height: 8px; box-sizing: border-box"></div>
+        <div class="liteSearchBoxC" style="width: 400px; margin: auto">
+            <input class="inputBox" placeholder="搜索无需繁琐" />
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <div style="width: 640px; margin: auto">
+            <p class="teal lighter" style="text-align: center; margin: auto">在 需要搜索框的位置 加入以下代码</p>
+            <div class="syntaxhighlighter xml">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td class="gutter">
+                                <div class="line number1 index0 alt2">1</div>
+                                <div class="line number2 index1 alt1">2</div>
+                                <div class="line number3 index2 alt2">3</div>
+                            </td>
+                            <td class="code">
+                                <div class="container">
+                                    <div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code
+                                            class="xml keyword">div</code>&nbsp;<code class="xml color1">class</code><code
+                                            class="xml plain">=</code><code
+                                            class="xml string">"liteSearchBoxC"</code>&nbsp;<code
+                                            class="xml color1">style</code><code class="xml plain">=</code><code
+                                            class="xml string">"width: 400px; margin: auto"</code><code class="xml plain">&gt;</code></div>
+                                    <div class="line number2 index1 alt1"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">input</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"inputBox"</code>&nbsp;<code
+                                            class="xml color1">placeholder</code><code class="xml plain">=</code><code
+                                            class="xml string">"搜索无需繁琐"</code>&nbsp;<code class="xml plain">/&gt;</code></div>
+                                    <div class="line number3 index2 alt1"><code class="xml plain">&lt;/</code><code
+                                            class="xml keyword">div</code><code class="xml plain">&gt;</code></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <p class="teal bolder" style="text-align: center; margin: auto">样式D</p>
+        <p class="teal lighter" style="text-align: center; margin: auto">为输入框增加了获得焦点的动态效果</p>
+        <div style="height: 8px; box-sizing: border-box"></div>
+        <p class="teal" style="text-align: center; margin: auto">标准 / 居中对齐</p>
+        <div class="liteSearchBoxD" style="width: 400px; margin: auto">
+            <input class="inputBox" placeholder="搜索无需繁琐" />
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <div style="width: 640px; margin: auto">
+            <p class="teal lighter" style="text-align: center; margin: auto">在 需要搜索框的位置 加入以下代码</p>
+            <div class="syntaxhighlighter xml">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td class="gutter">
+                                <div class="line number1 index0 alt2">1</div>
+                                <div class="line number2 index1 alt1">2</div>
+                                <div class="line number3 index2 alt2">3</div>
+                            </td>
+                            <td class="code">
+                                <div class="container">
+                                    <div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code
+                                            class="xml keyword">div</code>&nbsp;<code class="xml color1">class</code><code
+                                            class="xml plain">=</code><code
+                                            class="xml string">"liteSearchBoxD"</code>&nbsp;<code
+                                            class="xml color1">style</code><code class="xml plain">=</code><code
+                                            class="xml string">"width: 400px; margin: auto"</code><code class="xml plain">&gt;</code></div>
+                                    <div class="line number2 index1 alt1"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">input</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"inputBox"</code>&nbsp;<code
+                                            class="xml color1">placeholder</code><code class="xml plain">=</code><code
+                                            class="xml string">"搜索无需繁琐"</code>&nbsp;<code class="xml plain">/&gt;</code></div>
+                                    <div class="line number3 index2 alt1"><code class="xml plain">&lt;/</code><code
+                                            class="xml keyword">div</code><code class="xml plain">&gt;</code></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <p class="teal " style="text-align: center; margin: auto">左对齐</p>
+        <div style="width: 640px; margin: auto">
+        <div class="liteSearchBoxDLeft" style="width: 400px; margin: auto">
+            <input class="inputBox" placeholder="搜索无需繁琐" />
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+            <p class="teal lighter" style="text-align: center; margin: auto">在 需要搜索框的位置 加入以下代码</p>
+            <div class="syntaxhighlighter xml">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td class="gutter">
+                                <div class="line number1 index0 alt2">1</div>
+                                <div class="line number2 index1 alt1">2</div>
+                                <div class="line number3 index2 alt2">3</div>
+                            </td>
+                            <td class="code">
+                                <div class="container">
+                                    <div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code
+                                            class="xml keyword">div</code>&nbsp;<code class="xml color1">class</code><code
+                                            class="xml plain">=</code><code
+                                            class="xml string">"liteSearchBoxDLeft"</code>&nbsp;<code
+                                            class="xml color1">style</code><code class="xml plain">=</code><code
+                                            class="xml string">"width: 400px; margin: auto"</code><code class="xml plain">&gt;</code></div>
+                                    <div class="line number2 index1 alt1"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">input</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"inputBox"</code>&nbsp;<code
+                                            class="xml color1">placeholder</code><code class="xml plain">=</code><code
+                                            class="xml string">"搜索无需繁琐"</code>&nbsp;<code class="xml plain">/&gt;</code></div>
+                                    <div class="line number3 index2 alt1"><code class="xml plain">&lt;/</code><code
+                                            class="xml keyword">div</code><code class="xml plain">&gt;</code></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <p class="teal" style="text-align: center; margin: auto">右对齐</p>
+        <div class="liteSearchBoxDRight" style="width: 400px; margin: auto">
+            <input class="inputBox" placeholder="搜索无需繁琐" />
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <div style="width: 640px; margin: auto">
+            <p class="teal lighter" style="text-align: center; margin: auto">在 需要搜索框的位置 加入以下代码</p>
+            <div class="syntaxhighlighter xml">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td class="gutter">
+                                <div class="line number1 index0 alt2">1</div>
+                                <div class="line number2 index1 alt1">2</div>
+                                <div class="line number3 index2 alt2">3</div>
+                            </td>
+                            <td class="code">
+                                <div class="container">
+                                    <div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code
+                                            class="xml keyword">div</code>&nbsp;<code class="xml color1">class</code><code
+                                            class="xml plain">=</code><code
+                                            class="xml string">"liteSearchBoxDRight"</code>&nbsp;<code
+                                            class="xml color1">style</code><code class="xml plain">=</code><code
+                                            class="xml string">"width: 400px; margin: auto"</code><code class="xml plain">&gt;</code></div>
+                                    <div class="line number2 index1 alt1"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">input</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"inputBox"</code>&nbsp;<code
+                                            class="xml color1">placeholder</code><code class="xml plain">=</code><code
+                                            class="xml string">"搜索无需繁琐"</code>&nbsp;<code class="xml plain">/&gt;</code></div>
+                                    <div class="line number3 index2 alt1"><code class="xml plain">&lt;/</code><code
+                                            class="xml keyword">div</code><code class="xml plain">&gt;</code></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <p class="teal bolder" style="text-align: center; margin: auto">样式E</p>
+        <p class="teal lighter" style="text-align: center; margin: auto">为按钮增加了鼠标悬浮的动态效果</p>
+        <div style="height: 8px; box-sizing: border-box"></div>
+        <div class="liteSearchBoxE" style="width: 400px; margin: auto">
+            <input class="inputBox" placeholder="搜索无需繁琐" />
+            <span class="startButton">开始</span>
+        </div>
+        <div style="height: 16px; box-sizing: border-box"></div>
+        <div style="width: 640px; margin: auto">
+            <p class="teal lighter" style="text-align: center; margin: auto">在 需要搜索框的位置 加入以下代码</p>
+            <div class="syntaxhighlighter xml">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td class="gutter">
+                                <div class="line number1 index0 alt2">1</div>
+                                <div class="line number2 index1 alt1">2</div>
+                                <div class="line number3 index2 alt2">3</div>
+                                <div class="line number4 index3 alt1">4</div>
+                            </td>
+                            <td class="code">
+                                <div class="container">
+                                    <div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code
+                                            class="xml keyword">div</code>&nbsp;<code class="xml color1">class</code><code
+                                            class="xml plain">=</code><code
+                                            class="xml string">"liteSearchBoxE"</code>&nbsp;<code
+                                            class="xml color1">style</code><code class="xml plain">=</code><code
+                                            class="xml string">"width: 400px; margin: auto"</code><code class="xml plain">&gt;</code></div>
+                                    <div class="line number2 index1 alt1"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">input</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"inputBox"</code>&nbsp;<code
+                                            class="xml color1">placeholder</code><code class="xml plain">=</code><code
+                                            class="xml string">"搜索无需繁琐"</code>&nbsp;<code class="xml plain">/&gt;</code></div>
+                                    <div class="line number3 index2 alt2"><code
+                                            class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code
+                                            class="xml plain">&lt;</code><code class="xml keyword">span</code>&nbsp;<code
+                                            class="xml color1">class</code><code class="xml plain">=</code><code
+                                            class="xml string">"startButton"</code><code
+                                            class="xml plain">&gt;开始&lt;/</code><code class="xml keyword">span</code><code
+                                            class="xml plain">&gt;</code></div>
+                                    <div class="line number4 index3 alt1"><code class="xml plain">&lt;/</code><code
+                                            class="xml keyword">div</code><code class="xml plain">&gt;</code></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </p>
+    <div class="teal">
+        <div style="height: 10px; box-sizing: border-box"></div>
+        <p style="text-align: center">
+            Copyright &copy; <a href="https://www.piterator.com/" class="link teal" target="_blank">Piterator</a> 2017 - 2020. 
+            <br />
+            All rights reserved.
+            <br />
+            沪ICP备19004827号-4
+            <br />
+            <a href="sitemap.xml" class="link teal">SiteMap</a>
+            <div style="display: none"><img src="https://www.hit-counts.com/counter.php?t=MTQ0ODA1NA==" alt="hit-counts" /></div>
+        </p>
+    </div>
+    <script>
+        window.onload = function(){
+            history.replaceState({}, "Demo - 搜索框 - Lite Search - 轻搜索", "https://litesearch.cn/apis/LiteSearchAPIsDemo");
+        }
+    </script>
+</body>
+</html>
